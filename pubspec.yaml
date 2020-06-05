@@ -21,3 +21,12 @@ flutter:
 
   assets:
     - images/brayan.png
+
+  fonts:
+    - family: Nothing You Could Do
+      fonts:
+        - asset: fonts/NothingYouCouldDo-Regular.ttf
+
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
