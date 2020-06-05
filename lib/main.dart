@@ -28,9 +28,10 @@ class MyApp extends StatelessWidget {
               Text(
                 'Brayan Mamani',
                 style: TextStyle(
-                  color: Colors.amber,
-                  fontSize: 40.0,
+                  fontFamily: 'Nothing You Could Do',
+                  fontSize: 35.0,
                   fontWeight: FontWeight.bold,
+                  color: Colors.amber,
                 ),
               ),
               SizedBox(
@@ -39,17 +40,18 @@ class MyApp extends StatelessWidget {
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
-                  color: Colors.amber.shade200,
-                  fontSize: 20.0,
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 18.0,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
+                  color: Colors.amber.shade200,
                 ),
               ),
               SizedBox(
                 width: 150.0,
                 height: 20.0,
                 child: Divider(
-                  color: Colors.amber.shade100,
+                  color: Colors.amber.shade200,
                 ),
               ),
               Card(
@@ -63,6 +65,7 @@ class MyApp extends StatelessWidget {
                   title: Text(
                     '+591 70683730',
                     style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF191919),
@@ -79,8 +82,9 @@ class MyApp extends StatelessWidget {
                     color: Color(0xFF191919),
                   ),
                   title: Text(
-                    'brayan@email.com',
+                    'brayan@engineer.com',
                     style: TextStyle(
+                      fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF191919),
