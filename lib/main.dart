@@ -9,14 +9,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color(0xFF191919),
+        backgroundColor: Color(0xFFecf4f4),
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 60.0,
-                backgroundColor: Colors.amber,
+                backgroundColor: Color(0xFF5e93ac),
                 child: CircleAvatar(
                   radius: 58.0,
                   backgroundImage: AssetImage('images/brayan.png'),
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Nothing You Could Do',
                   fontSize: 35.0,
                   fontWeight: FontWeight.bold,
-                  color: Colors.amber,
+                  color: Color(0xFF5e93ac),
                 ),
               ),
               SizedBox(
@@ -44,23 +44,23 @@ class MyApp extends StatelessWidget {
                   fontSize: 18.0,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
-                  color: Colors.amber.shade200,
+                  color: Color(0xFF9ec0ce),
                 ),
               ),
               SizedBox(
                 width: 150.0,
                 height: 20.0,
                 child: Divider(
-                  color: Colors.amber.shade200,
+                  color: Color(0xFF5b98b6),
                 ),
               ),
               Card(
                 margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
-                color: Colors.amber,
+                color: Color(0xFFd6edf6),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
-                    color: Color(0xFF191919),
+                    color: Color(0xFF5e93ac),
                   ),
                   title: Text(
                     '+591 70683730',
@@ -68,18 +68,18 @@ class MyApp extends StatelessWidget {
                       fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xFF191919),
+                      color: Color(0xFF5e93ac),
                     ),
                   ),
                 ),
               ),
               Card(
                 margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
-                color: Colors.amber,
+                color: Color(0xFFd6edf6),
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Color(0xFF191919),
+                    color: Color(0xFF5e93ac),
                   ),
                   title: Text(
                     'brayan@engineer.com',
@@ -87,7 +87,7 @@ class MyApp extends StatelessWidget {
                       fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xFF191919),
+                      color: Color(0xFF5e93ac),
                     ),
                   ),
                 ),
