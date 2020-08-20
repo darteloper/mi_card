@@ -6,7 +6,7 @@ Flutter is Google's UI toolkit for building beautiful, natively compiled applica
 
 ## About Mi Card
 
-This repository presents you with an application that shows the design of a presentation card, it also has the application icon configured for Android and iOS.
+This repository presents you with an application that shows the design of a presentation personal business card, it also has the application icon configured for Android and iOS.
 
 <img src="mi_card.gif" width="300">
 
